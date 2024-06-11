@@ -1,0 +1,150 @@
+/* CABEÇALHO */
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #83DB9C;
+}
+
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    margin-right: 160px;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-header a{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 15px;
+}
+
+
+.loginCarrinho {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.loginCarrinho a{
+    display: flex;
+    gap: 10px;
+}
+.loginCarrinho a:hover{
+    background-color: #3f9156;
+    border-radius: 4px;
+}
+a img{
+    width: 1.25em;
+}
+
+
+/* BARRA PESQUISA */
+.buscar{
+    width: 25vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 25vw;
+    height: 2rem;
+    padding-left: 1.25rem;
+    font-size: 1rem;
+    border: 1px solid #3f915680;
+    margin: 0.938rem;
+    border-radius: 0.5rem;
+}
+
+
+/* MENU HAMBURGUER */
+.burguer{
+    display: none;
+}
+
+.menuBurguer{
+    display: none;
+}
+
+
+@media (max-width: 600px){
+
+    .nav-header{
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 30px;
+    }
+
+
+    .buscar{
+        width: 30vw;
+    }
+    input{
+        width: 30vw;
+    }
+
+
+    .burguer{
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        background-color: #83DB9C;
+        border: none;
+    }
+    .burguer:hover{
+        background-color: #3f9156;
+        border-radius: 4px;
+    }
+    .burguer img{
+        max-width: 20px;
+    }
+    .loginCarrinho{
+        display: none;
+    }
+
+
+    .menuBurguer{
+        display: none;
+        width: 100vw;
+    }
+    .menuBurguer ul{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 1rem;
+        text-align: center;
+        padding-bottom: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .menuBurguer li{
+        padding: 5px;
+        width: 90%;
+        justify-content: center;
+    }
+    .menuBurguer li:hover{
+        background-color: #3f9156;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    .menuBurguer li a{
+        color: white;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1125px){
+    .loginCarrinho a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,56 @@
+footer{
+    background-color: #5E8E71;
+    display: flex;
+    grid-template-columns: 62.5rem 18.75rem;
+    justify-content: center;
+    gap: 5rem;
+    padding: 1.5rem;
+    margin-top: 50px;
+}
+
+.infoRodape{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0.625rem;
+}
+
+.infoRodape a{
+    color: white;
+}
+.infoRodape a:hover{
+    opacity: 0.5;
+}
+
+.redesSociais{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.redesSociais a img{
+    height: 1.563rem;
+}
+
+.infoRodape p{
+    color: white;
+}
+
+@media (max-width: 600px){
+    .infoRodape a{
+        font-size: 1rem;
+    }
+    footer{
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 450px){
+    footer{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .infoRodape{
+        text-align: center;
+        align-items: center;
+    }
+}
