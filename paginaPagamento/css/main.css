@@ -1,0 +1,103 @@
+body,
+* {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  margin: 0 auto; 
+  justify-content: center;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+  max-width: 1200px;
+  width: 100%; 
+  padding: 0 1rem;
+}
+
+main h1 {
+  margin-bottom: 3.125rem;
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 50rem;
+  margin: auto;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 calc(50% - 1.25rem);
+}
+
+form div.full-width {
+  flex: 1 1 100%;
+}
+
+form div.quarter-width {
+  flex: 1 1 calc(25% - 1.25rem);
+  margin: -0.3125rem;
+}
+
+label {
+  text-align: left;
+  margin-left: 1.25rem;
+  margin-bottom: -0.3125rem;
+}
+
+.inpute {
+  width: 100%;
+  padding: 1.875rem;
+  box-sizing: border-box;
+  margin-right: 3.125rem;
+  border-radius: 0.3125rem;
+  border-color: #dddddd;
+}
+
+.payment-method select {
+  width: 100%;
+  padding: 1.25rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  margin-top: 0.9375rem;
+  margin-left: 0.8125rem;
+  border-color: #dddddd;
+  cursor: pointer;
+}
+
+.confirmar {
+  display: block;
+  margin-bottom: 3.125rem;
+  padding: 0.9375rem 1.875rem;
+  background-color: #83db9c;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  margin-left: 2.5rem;
+}
+
+.confirmar:hover {
+  background-color: #6fba84;
+}
+
+.voltar {
+  display: block;
+  margin-bottom: 3.125rem;
+  padding: 0.9375rem 1.875rem;
+  background-color: #d3d3d3;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  margin-left: 2.5rem;
+}
+
+.voltar:hover {
+  background-color: #c0c0c0;
+}

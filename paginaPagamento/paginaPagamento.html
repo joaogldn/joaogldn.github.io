@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/paginaPagamento/css/style.css">
+    <title>Payment</title>
+</head>
+<body>
+  
+    <header>
+        <nav class="nav-header">
+            <a class="logo" href="/index.html">
+                <img src="/paginaPagamento/img/logo.png" alt="logo EcoSparkle">
+                <p>EcoSparkle</p>
+            </a>
+            <div class="buscar">
+                <input type="text" placeholder="Search">
+            </div>
+            <ul class="loginCarrinho">
+                <li><a href="/paginaCarrinho/paginaCarrinho.html"> <img src="/paginaPagamento/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href=""> <img src="/paginaPagamento/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+            <button class="burguer" onclick="clickBurguer()">
+                <img src="/paginaPagamento/img/menu.svg" alt="">
+            </button>
+        </nav>
+        <div class="menuBurguer">
+            <ul>
+                <li><a class="icone" href=""> <img src="/paginaPagamento/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href="/paginaLogin/paginaLogin.html"> <img src="/paginaPagamento/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+
+
+    <main>
+        <h1>PAYMENT</h1>
+        <form href="/paginaConfirmaçao/paginaConfirmacaoPagamento.html" method="POST">
+          <div class="payment-method">
+            <label for="payment-method">PAYMENT METHOD</label>
+            <div class="selecao">
+              <select id="payment-method" name="payment-method">
+                <option value="" disabled selected>SELECT PAYMENT METHOD:</option>
+                <option value="debit-card">Debit Card</option>
+                <option value="credit-card">Credit Card</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label for="telephone">TELEPHONE:</label>
+            <input type="text"  class=" inpute" id="telephone" name="telephone" />
+          </div>
+  
+          <div>
+            <label for="instalments">INSTALMENTS:</label>
+            <input type="text" class=" inpute" id="instalments" name="instalments" />
+          </div>
+  
+          <div>
+            <label for="zip-code">ZIP CODE:</label>
+            <input type="text" class=" inpute" id="zip-code" name="zip-code" />
+          </div>
+  
+          <div>
+            <label for="owner-name">OWNER NAME:</label>
+            <input type="text" class=" inpute" id="owner-name" name="owner-name" />
+          </div>
+  
+          <div>
+            <label for="address">ADDRESS:</label>
+            <input type="text" class=" inpute" id="address" name="address" />
+          </div>
+  
+          <div>
+            <label for="card-number">CARD NUMBER:</label>
+            <input type="text" class=" inpute" id="card-number" name="card-number" />
+          </div>
+  
+          <div>
+            <label for="city">CITY:</label>
+            <input type="text" class=" inpute" id="city" name="city" />
+          </div>
+  
+          <div class="quarter-width">
+            <label for="maturity">MATURITY:</label>
+            <input type="text" class=" inpute" id="maturity" name="maturity" />
+          </div>
+  
+          <div class="quarter-width">
+            <label for="cvv">CVV:</label>
+            <input type="text" class=" inpute" id="cvv" name="cvv" />
+          </div>
+  
+          <div class="quarter-width">
+            <label for="neighborhood">NEIGHBORHOOD:</label>
+            <input type="text" class=" inpute" id="neighborhood" name="neighborhood" />
+          </div>
+  
+          <div class="quarter-width">
+            <label for="number">NUMBER:</label>
+            <input type="text" class=" inpute" id="number" name="number" />
+          </div>
+  
+          <button class="voltar"> <a href="/paginaCompras/paginaCompras.html"> BACK</a></button>
+          <button class="confirmar"> <a href="/paginaConfirmacao/paginaConfirmacaoPagamento.html"> CONFIRM </a> </button>
+        </form>
+    </main>
+
+
+    <footer>
+        <a class="logo" href="/index.html">
+            <img src="/paginaPagamento/img/logo.png" alt="logo EcoSparkle"> 
+            <p>EcoSparkle</p>
+        </a>
+        <div class="infoRodape">
+            <a href="/paginaSobre/paginaSobre.html">About us</a>
+            <a href="/paginaBlog/paginaBlog.html">Blog</a>
+            <div class="redesSociais">
+                <a href="https://www.facebook.com" target="_blank" rel="external"> <img src="/paginaPagamento/img/facebook.svg" alt="facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank" rel="external"> <img src="/paginaPagamento/img/instagran.svg" alt="instagran"> </a>
+                <a href="https://x.com" target="_blank" rel="external"> <img src="/paginaPagamento/img/twitter.svg" alt="rede social X"> </a>
+                <a href="https://br.pinterest.com" target="_blank" rel="external"> <img src="/paginaPagamento/img/pinterest.svg" alt="pinterest"> </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="external"> <img src="/paginaPagamento/img/linkedin.svg" alt="linkedin"> </a>
+            </div>
+            <p>Contact: +00 (00) 00000-0000</p>
+        </div>
+    </footer>
+
+
+    <script src="/paginaPagamento/js/script.js"></script>
+    <script src="/paginaPagamento/js/actionBurguer.js"></script>
+</body>
+</html>
