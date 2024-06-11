@@ -1,0 +1,63 @@
+main h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.banner{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-self: center;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.imgDesconto{
+    max-width: 900px;
+    width: 100%;
+}
+
+.listaBest{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    justify-self: center;
+}
+.listaBest li{
+    position: relative;
+    width: 250px;
+}
+
+a .topBest{
+    display: block;
+    color: #ffa0a18f;
+    font-size: 15rem;
+    position: absolute;
+    z-index: -1;
+    left: -80px;
+    top: -49px;
+}
+
+.top{
+    margin: 0px;
+}
+
+@media (max-width: 600px){
+    .listaBest{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    a .topBest{
+        left: -70px;
+    }
+
+    .imgPrincipal img{
+        content: url('/img/bannerPrincipalAjt.png');
+    }
+
+    .imgDesconto img{
+        content: url('/img/bannerDescontoAjt.png');
+    }
+}

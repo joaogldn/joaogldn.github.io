@@ -1,0 +1,56 @@
+.nav-bar{
+    font-weight: bold;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin: 10px;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-self: center;
+
+    position: relative;
+}
+
+.nav-bar ul li a{
+    text-align: center;
+    padding: 5px;
+    width: 150px;
+    border-radius: 0.25rem;
+    background-color: #83DB9C;
+    justify-content: center;
+    align-self: center;
+}
+
+.nav-bar ul li:hover a{
+    background-color: #3f9156;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: white;
+}
+
+@media (max-width: 600px){
+    .nav-bar{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .nav-bar ul{
+        gap: 5px;
+    }
+
+    .nav-bar ul li a{
+        width: 24vw;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 400px){
+    .nav-bar ul li a{
+        font-size: 0.8rem;
+    }
+}
