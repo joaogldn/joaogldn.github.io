@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* LOGO DO SITE */
+.logo{
+    display: flex;
+    gap: 0.313em;
+    justify-content: center;
+    align-items: center;
+}
+header .logo:hover{
+    background-color: #3f9156;
+    border-radius: 4px;
+}
+
+.logo p{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 1.25em;
+}
+
+footer .logo img{
+    width: 1.875em;
+}
+
+footer .logo p{
+    font-family: 'Poppins';
+    color: white;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+footer .logo:hover{
+    opacity: 0.5;
+}
+
+
