@@ -1,0 +1,65 @@
+/* GALERIA DE PRODUTOS */
+.galeriaProduto{
+    display: grid;
+    grid-template-columns: 100px 320px;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.galeriaProduto ul li img{
+    display: block;
+    max-width: 100%;
+}
+
+.galeriaProduto ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.imagemDestaque{
+    max-width: 100%;
+}
+
+/* CORPO */
+main{
+    margin: 20px;
+    justify-content: center;
+    display: grid;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 300px 130px;
+    justify-content: center;
+}
+
+.comprarCarrinho{
+    font-weight: bold;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 90px 30px;
+    gap: 6px;
+    justify-content: end;
+}
+
+.comprarCarrinho a{
+    background-color: #83DB9C;
+    border-radius: 4px;
+    padding: 6px;
+    height: 20px;
+    text-align: center;
+}
+
+.valor{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+main p{
+    text-align: justify;
+    max-width: 430px;
+    display: inline-block;
+}

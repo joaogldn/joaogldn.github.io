@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/paginaCarrinho/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Your Cart</title>
+<body>
+
+    <header>
+        <nav class="nav-header">
+            <a class="logo" href="/index.html">
+                <img src="/paginaCarrinho/img/logo.png" alt="logo EcoSparkle">
+                <p>EcoSparkle</p>
+            </a>
+            <div class="buscar">
+                <input type="text" placeholder="Search">
+            </div>
+            <ul class="loginCarrinho">
+                <li><a href="/paginaCarrinho/paginaCarrinho.html"> <img src="/paginaCarrinho/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href="/paginaLogin/paginaLogin.html"> <img src="/paginaCarrinho/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+            <button class="burguer" onclick="clickBurguer()">
+                <img src="/paginaCarrinho/img/menu.svg" alt="">
+            </button>
+        </nav>
+        <div class="menuBurguer">
+            <ul>
+                <li><a class="icone" href=""> <img src="/paginaCarrinho/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href=""> <img src="/paginaCarrinho/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+ 
+  
+    <main>
+        <h1>Shopping Cart</h1>
+
+        <div class="shopping-cart">
+        
+          <div class="column-labels">
+            <label class="product-image"><span>Image</span></label>
+            <label class="product-details"><span>Product</span></label>
+            <label class="product-price">Price</label>
+            <label class="product-quantity">Quantity</label>
+            <label class="product-removal">Remove</label>
+            <label class="product-line-price">Total</label>
+          </div>
+        
+          <div class="product">
+            <div class="product-image">
+              <img src="/paginaCarrinho/img/sabonetekid.png">
+            </div>
+            <div class="product-details">
+              <div class="product-title">Kids Soap
+                Hypoallergenic Vegan and Fragrance Free
+                </div>
+              <p class="product-description">250ml</p>
+            </div>
+            <div class="product-price">12.99</div>
+            <div class="product-quantity">
+              <input type="number" value="2" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">25.98</div>
+          </div>
+        
+          <div class="product">
+            <div class="product-image">
+              <img src="/paginaCarrinho/img/skincare.png">
+            </div>
+            <div class="product-details">
+              <div class="product-title">
+                Vegan Face Mask Kit +
+                Skincare Brush and 
+                Hair Band
+              </div>
+              <p class="product-description"> (4 Products)</p>
+            </div>
+            <div class="product-price">45.99</div>
+            <div class="product-quantity">
+              <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">45.99</div>
+          </div>
+  
+  
+          <div class="product">
+            <div class="product-image">
+              <img src="/paginaCarrinho/img/curlyhair.png">
+            </div>
+            <div class="product-details">
+              <div class="product-title">
+                Curls Kit + Shampoo + Conditioner
+              </div>
+              <p class="product-description">(4 Products)</p>
+            </div>
+            <div class="product-price">45.99</div>
+            <div class="product-quantity">
+              <input type="number" value="1" min="1">
+            </div>
+            <div class="product-removal">
+              <button class="remove-product">
+                Remove
+              </button>
+            </div>
+            <div class="product-line-price">45.99</div>
+          </div>
+  
+  
+        
+          <div class="totals">
+            <div class="totals-item">
+              <label>Subtotal</label>
+              <div class="totals-value" id="cart-subtotal">117.96</div>
+            </div>
+            <div class="totals-item">
+              <label>Tax (5%)</label>
+              <div class="totals-value" id="cart-tax">5.90</div>
+            </div>
+           
+            <div class="totals-item">
+              <label>Shipping</label>
+              <div class="totals-value" id="cart-shipping">15.00</div>
+            </div>
+            <div class="totals-item totals-item-total">
+              <label>Grand Total</label>
+              <div class="totals-value" id="cart-total">138.86</div>
+            </div>
+          </div>
+          
+          <div class="button-container">
+            <button class="back"> <a href="/index.html">Back</a></button>
+            <button class="checkout"> <a href="/paginaCompras/paginaCompras.html">Checkout</a></button>
+          </div>
+        
+        </div>
+    </main>
+
+   
+    <footer>
+        <a class="logo" href="/index.html">
+            <img src="/paginaCarrinho/img/logo.png" alt="logo EcoSparkle"> 
+            <p>EcoSparkle</p>
+        </a>
+        <div class="infoRodape">
+            <a href="/paginaSobre/paginaSobre.html">About us</a>
+            <a href="/paginaBlog/paginaBlog.html">Blog</a>
+            <div class="redesSociais">
+                <a href="https://www.facebook.com" target="_blank" rel="external"> <img src="/paginaCarrinho/img/facebook.svg" alt="facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank" rel="external"> <img src="/paginaCarrinho/img/instagran.svg" alt="instagran"> </a>
+                <a href="https://x.com" target="_blank" rel="external"> <img src="/paginaCarrinho/img/twitter.svg" alt="rede social X"> </a>
+                <a href="https://br.pinterest.com" target="_blank" rel="external"> <img src="/img/pinterest.svg" alt="pinterest"> </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="external"> <img src="/paginaCarrinho/img/linkedin.svg" alt="linkedin"> </a>
+            </div>
+            <p>Contact: +00 (00) 00000-0000</p>
+        </div>
+    </footer>
+
+
+    <script src="/paginaCarrinho/js/script.js"></script>
+    <script src="/paginaCarrinho/js/actionBurguer.js"></script>
+</body>
+</html>

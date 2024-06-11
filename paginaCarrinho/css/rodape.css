@@ -1,0 +1,31 @@
+footer{
+    background-color: #5E8E71;
+    display: flex;
+    grid-template-columns: 62.5em 18.75em;
+    justify-content: center;
+    gap: 3.75em;
+    padding: 2.5em;
+}
+
+.infoRodape{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0.625em;
+}
+
+.infoRodape a{
+    color: white;
+}
+.infoRodape a:hover{
+    opacity: 0.5;
+}
+
+.redesSociais a img{
+    gap: 0.313em;
+    height: 1.563em;
+}
+
+.infoRodape p{
+    color: white;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/paginaCompras/css/style.css">
+    <title>Your Purchase</title>
+</head>
+<body>
+  
+    <header>
+        <nav class="nav-header">
+            <a class="logo" href="/index.html">
+                <img src="/paginaCompras/img/logo.png" alt="logo EcoSparkle">
+                <p>EcoSparkle</p>
+            </a>
+            <div class="buscar">
+                <input type="text" placeholder="Search">
+            </div>
+            <ul class="loginCarrinho">
+                <li><a href="/paginaCarrinho/paginaCarrinho.html"> <img src="/paginaCompras/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href="/paginaLogin/paginaLogin.html"> <img src="/paginaCompras/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+            <button class="burguer" onclick="clickBurguer()">
+                <img src="/paginaCompras/img/menu.svg" alt="">
+            </button>
+        </nav>
+        <div class="menuBurguer">
+            <ul>
+                <li><a class="icone" href=""> <img src="/paginaCompras/img/carrinho-de-compras.svg" alt="carrinho de compras"> Cart</a></li>
+                <li><a href=""> <img src="/paginaCompras/img/perfil.svg" alt="perfil pessoal"> Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+    <main>
+      <h1>YOUR PURCHASE</h1>
+     
+      <div class="content-wrapper">
+          <div class="products">
+              <div class="product">
+                  <div class="product-info">
+                      <img src="/paginaCompras/img/skincare.png" alt="Kit Máscaras Faciais" />
+                  </div>
+                  <div class="product-description">
+                      <h4>Vegan Face Mask Kit +
+                        Skincare Brush and  <br/> Hair Band (4 Products)</h4>
+                      <p>Price: $ 45.99</p>
+                  </div>
+              </div>
+              <div class="product">
+                  <div class="product-info">
+                      <img src="/paginaCompras/img/sabonetekid.png" alt="Sabonete Kids" />
+                  </div>
+                  <div class="product-description">
+                      <h4>Kids Soap
+                        Hypoallergenic Vegan and Fragrance Free <br /> 250ML</h4>
+                      <p>Price: $ 12.99</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="order-wrapper">
+              <div class="order-details">
+                  <p class="total">Subtotal: $58.98 </p>
+                  <p class="total">Tax (5%): $2.95</p>
+                  <p class="total">Shipping: $15.00</p>
+                  <p class="total">Grand Total: $76.93</p>
+              </div>
+        
+              <div class="buttons">
+                  <button class="voltar"><a href="/index.html">BACK</a></button>
+                  <button class="confirmar"><a href="/paginaPagamento/paginaPagamento.html">PURCHASE</a></button>
+              </div>
+          </div>
+      </div>
+  </main>
+  
+  
+
+  
+    <footer>
+        <a class="logo" href="/index.html">
+            <img src="/img/logo.png" alt="logo EcoSparkle"> 
+            <p>EcoSparkle</p>
+        </a>
+        <div class="infoRodape">
+            <a href="/paginaSobre/paginaSobre.html">About us</a>
+            <a href="/paginaBlog/paginaBlog.html">Blog</a>
+            <div class="redesSociais">
+                <a href="https://www.facebook.com" target="_blank" rel="external"> <img src="/paginaCompras/img/facebook.svg" alt="facebook"> </a>
+                <a href="https://www.instagram.com" target="_blank" rel="external"> <img src="/paginaCompras/img/instagran.svg" alt="instagran"> </a>
+                <a href="https://x.com" target="_blank" rel="external"> <img src="/paginaCompras/img/twitter.svg" alt="rede social X"> </a>
+                <a href="https://br.pinterest.com" target="_blank" rel="external"> <img src="/paginaCompras/img/pinterest.svg" alt="pinterest"> </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="external"> <img src="/paginaCompras/img/linkedin.svg" alt="linkedin"> </a>
+            </div>
+            <p>Contact: +00 (00) 00000-0000</p>
+        </div>
+    </footer>
+
+
+    <script src="/paginaCompras/js/script.js"></script>
+    <script src="/paginaCompras/js/actionBurguer.js"></script>
+</body>
+</html>
