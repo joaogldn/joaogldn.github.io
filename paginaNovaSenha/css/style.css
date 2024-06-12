@@ -2,7 +2,6 @@ body {
 
     background: linear-gradient(to right,  #e2e2e2, #83db9c7c);
       font-family: 'Arial', sans-serif;
-      height: 90vh;
   }
 
   p{
@@ -15,7 +14,7 @@ font-size: small;
       text-align: center;
       box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
       border-radius: 15px;
-      height: 75vh;
+      height: 500px;
   }
   .login-title {
       text-align: center;
@@ -101,9 +100,3 @@ button a:hover{
 span{
     color: #fff;
 }
-
-
-   
-
-
-  
